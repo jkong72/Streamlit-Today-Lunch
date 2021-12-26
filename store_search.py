@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import json
 import pandas as pd
 
-from secure import kko_rest
+# from secure import kko_rest
 
 def store_search (x1, y1, x2, y2):
     df = pd.DataFrame(index=range(0,1), columns=['분류', '이름', 'x', 'y'])
