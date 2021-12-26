@@ -7,7 +7,9 @@ from bs4 import BeautifulSoup
 import json
 import pandas as pd
 
-from secure import kko_rest
+# from secure import kko_rest
+
+# feature is not prepare
 
 def point_search (keyword):
     req_url = 'https://dapi.kakao.com/v2/local/search/keyword.json?query=' #키워드 검색
